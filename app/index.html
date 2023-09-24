@@ -32,22 +32,22 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Commands <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li data-test="Querying"><a href="/commands/querying">Querying</a></li>
-              <li><a href="/commands/traversal">Traversal</a></li>
-              <li><a href="/commands/actions">Actions</a></li>
-              <li><a href="/commands/window">Window</a></li>
-              <li><a href="/commands/viewport">Viewport</a></li>
-              <li><a href="/commands/location">Location</a></li>
-              <li><a href="/commands/navigation">Navigation</a></li>
-              <li><a href="/commands/assertions">Assertions</a></li>
-              <li><a href="/commands/misc">Misc</a></li>
-              <li><a href="/commands/connectors">Connectors</a></li>
-              <li><a href="/commands/aliasing">Aliasing</a></li>
-              <li><a href="/commands/waiting">Waiting</a></li>
-              <li><a href="/commands/network-requests">Network Requests</a></li>
-              <li><a href="/commands/files">Files</a></li>
-              <li><a href="/commands/local-storage">Local Storage</a></li>
-              <li><a href="/commands/cookies">Cookies</a></li>
-              <li><a href="/commands/spies-stubs-clocks">Spies, Stubs &amp; Clocks</a></li>
+              <li><a data-test="Traversal" href="/commands/traversal">Traversal</a></li>
+              <li><a data-test="Actions" href="/commands/actions">Actions</a></li>
+              <li><a data-test="Window" href="/commands/window">Window</a></li>
+              <li><a data-test="Viewport" href="/commands/viewport">Viewport</a></li>
+              <li><a data-test="Location" href="/commands/location">Location</a></li>
+              <li><a data-test="Navigation" href="/commands/navigation">Navigation</a></li>
+              <li><a data-test="Assertions" href="/commands/assertions">Assertions</a></li>
+              <li><a data-test="Misc" href="/commands/misc">Misc</a></li>
+              <li><a data-test="Connectors" href="/commands/connectors">Connectors</a></li>
+              <li><a data-test="Aliasing" href="/commands/aliasing">Aliasing</a></li>
+              <li><a data-test="Waiting" href="/commands/waiting">Waiting</a></li>
+              <li><a data-test="NetworkRequests" href="/commands/network-requests">Network Requests</a></li>
+              <li><a data-test="Files" href="/commands/files">Files</a></li>
+              <li><a data-test="LocalStorage" href="/commands/local-storage">Local Storage</a></li>
+              <li><a data-test="Cookies" href="/commands/cookies">Cookies</a></li>
+              <li><a data-test="SpiesStubsClocks" href="/commands/spies-stubs-clocks">Spies, Stubs &amp; Clocks</a></li>
             </ul>
           </li>
           <li><a href="/utilities">Utilities</a></li>
@@ -82,7 +82,7 @@
       <div class="col-xs-12">
         <ul class="home-list">
           <li>
-            <a href="/commands/querying">Querying</a>
+            <a data-test="Querying-one" href="/commands/querying">Querying</a>
             <ul>
               <li><a href="/commands/querying">get</a></li>
               <li><a href="/commands/querying">contains</a></li>
@@ -91,7 +91,7 @@
             </ul>
           </li>
           <li>
-            <a href="/commands/traversal">Traversal</a>
+            <a data-test="Traversal-one" href="/commands/traversal">Traversal</a>
             <ul>
               <li><a href="/commands/traversal">children</a></li>
               <li><a href="/commands/traversal">closest</a></li>
@@ -114,7 +114,7 @@
             </ul>
           </li>
           <li>
-            <a href="/commands/actions">Actions</a>
+            <a data-test="Actions-one" href="/commands/actions">Actions</a>
             <ul>
               <li><a href="/commands/actions">type</a></li>
               <li><a href="/commands/actions">focus</a></li>
@@ -133,7 +133,7 @@
             </ul>
           </li>
           <li>
-            <a href="/commands/window">Window</a>
+            <a data-test="Window-one" href="/commands/window">Window</a>
             <ul>
               <li><a href="/commands/window">window</a></li>
               <li><a href="/commands/window">document</a></li>
@@ -141,13 +141,13 @@
             </ul>
           </li>
           <li>
-            <a href="/commands/viewport">Viewport</a>
+            <a data-test="Viewport-one" href="/commands/viewport">Viewport</a>
             <ul>
               <li><a href="/commands/viewport">viewport</a></li>
             </ul>
           </li>
           <li>
-            <a href="/commands/location">Location</a>
+            <a data-test="Location-one" href="/commands/location">Location</a>
             <ul>
               <li><a href="/commands/location">hash</a></li>
               <li><a href="/commands/location">location</a></li>
@@ -155,7 +155,7 @@
             </ul>
           </li>
           <li>
-            <a href="/commands/navigation">Navigation</a>
+            <a data-test="Navigation-one" href="/commands/navigation">Navigation</a>
             <ul>
               <li><a href="/commands/navigation">go</a></li>
               <li><a href="/commands/navigation">reload</a></li>
@@ -163,7 +163,7 @@
             </ul>
           </li>
           <li>
-            <a href="/commands/assertions">Assertions</a>
+            <a data-test="Assertions-one" href="/commands/assertions">Assertions</a>
             <ul>
               <li>Implicit Assertions</li>
               <li><a href="/commands/assertions">should</a></li>
@@ -174,7 +174,7 @@
             </ul>
           </li>
           <li>
-            <a href="/commands/misc">Misc</a>
+            <a data-test="Misc-one" href="/commands/misc">Misc</a>
             <ul>
               <li><a href="/commands/misc">end</a></li>
               <li><a href="/commands/misc">exec</a></li>
@@ -184,7 +184,7 @@
             </ul>
           </li>
           <li>
-            <a href="/commands/connectors">Connectors</a>
+            <a data-test="Connectors-one" href="/commands/connectors">Connectors</a>
             <ul>
               <li><a href="/commands/connectors">each</a></li>
               <li><a href="/commands/connectors">its</a></li>
@@ -194,19 +194,19 @@
             </ul>
           </li>
           <li>
-            <a href="/commands/aliasing">Aliasing</a>
+            <a data-test="Aliasing-one" href="/commands/aliasing">Aliasing</a>
             <ul>
               <li><a href="/commands/aliasing">as</a></li>
             </ul>
           </li>
           <li>
-            <a href="/commands/waiting">Waiting</a>
+            <a data-test="Waiting-one" href="/commands/waiting">Waiting</a>
             <ul>
               <li><a href="/commands/waiting">wait</a></li>
             </ul>
           </li>
           <li>
-            <a href="/commands/network-requests">Network Requests</a>
+            <a data-test="NetworkRequests-one" href="/commands/network-requests">Network Requests</a>
             <ul>
               <li><a href="/commands/network-requests">server</a></li>
               <li><a href="/commands/network-requests">request</a></li>
@@ -214,7 +214,7 @@
             </ul>
           </li>
           <li>
-            <a href="/commands/files">Files</a>
+            <a data-test="Files-one" href="/commands/files">Files</a>
             <ul>
               <li><a href="/commands/files#fixtures">fixtures</a></li>
               <li><a href="/commands/files#readfile">readFile</a></li>
@@ -222,19 +222,19 @@
             </ul>
           </li>
           <li>
-            <a href="/commands/local-storage">Local Storage</a>
+            <a data-test="LocalStorage-one" href="/commands/local-storage">Local Storage</a>
             <ul>
               <li><a href="/commands/local-storage">clearLocalStorage</a></li>
             </ul>
           </li>
           <li>
-            <a href="/commands/cookies">Cookies</a>
+            <a data-test="Cookies-one" href="/commands/cookies">Cookies</a>
             <ul>
               <li><a href="/commands/cookies">clearCookies</a></li>
             </ul>
           </li>
           <li>
-            <a href="/commands/spies-stubs-clocks">Spies, Stubs &amp; Clocks</a>
+            <a data-test="SpiesStubsClocks-one" href="/commands/spies-stubs-clocks">Spies, Stubs &amp; Clocks</a>
             <ul>
               <li><a href="/commands/spies-stubs-clocks">spy</a></li>
               <li><a href="/commands/spies-stubs-clocks">stub</a></li>
